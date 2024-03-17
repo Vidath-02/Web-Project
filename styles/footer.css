@@ -1,0 +1,73 @@
+/* footer container style*/
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #020000;
+}
+
+/* align text inside these divs*/
+#footerheading,#footerdesc,#copyright{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+#footerheading{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* display inline at the center*/
+#socials{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.socials{
+    padding: 10px 5px;
+}
+
+#copyright{
+    width: 100%;
+    background-color: #ffffffce;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.author{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 12px;
+
+}
+
+/*change the color on hover*/
+.author:hover{
+    color: #000000;
+}
+
+/*changes icon color on hover*/
+#fb svg:hover{
+    fill: #4267B2;
+}
+
+#insta svg:hover{
+    fill: #d62976;
+}
+
+#twit svg:hover{
+    fill: #00acee;
+}
+
+#whats svg:hover{
+    fill: #25D366;
+}
